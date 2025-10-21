@@ -1,0 +1,67 @@
+
+* { 
+  background: transparent !important; 
+  box-shadow: none !important; 
+}
+
+header nav, footer {
+  display: none !important;
+}
+
+a, a:visited { 
+  text-decoration: none; 
+  color: #000; 
+}
+
+a::after { 
+  content: " (" attr(href) ")"; 
+  font-size: 0.9em; 
+}
+
+body { 
+  margin: 12mm;
+  color: #000; 
+  font-size: 12pt; 
+  line-height: 1.4;
+}
+
+h1 { 
+  font-size: 18pt; 
+  margin-bottom: 8pt;
+}
+
+h2 { 
+  font-size: 14pt; 
+  margin-top: 10pt; 
+  margin-bottom: 6pt;
+}
+
+h3 { 
+  font-size: 12pt; 
+  margin-top: 8pt; 
+  margin-bottom: 4pt;
+}
+
+.plant-photo { 
+  max-width: 200px; 
+  height: auto; 
+  border: 1pt solid #000; 
+  margin: 10pt 0;
+}
+
+.layout { 
+  display: block !important; 
+}
+
+.col-aside { 
+  margin-top: 8pt; 
+}
+
+ul, ol { 
+  margin: 4pt 0; 
+  padding-left: 12pt; 
+}
+
+li { 
+  margin: 2pt 0; 
+}
